@@ -1,0 +1,100 @@
+/* Style for the body tag */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Style for the header tag */
+header {
+    background-color: #64864a;
+    padding: 40px;
+}
+
+/* Style for the nav tag */
+nav {
+    background-color: #64864a; 
+    display: inline-block;
+    width: 80%;
+}
+
+nav img { 
+    width: 10%;
+    height: auto; /* Ensures the aspect ratio is maintained */
+    position: absolute;  
+    top: 40px; /* Adjust to position the image vertically */
+    right: 150px; /* Positions the image on the right side */
+}    
+
+/* Style for the nav links */ 
+nav a { 
+    font-size: 24px; /* Make the text bigger */ 
+    font-weight: bold; /* Make the text bold */ 
+    color: white; /* Change the text color */ 
+    text-decoration: none; /* Remove underline from links */ 
+} 
+
+/* Add hover effect for nav links */ 
+nav a:hover { 
+    color: #ffa700; /* Change text color on hover */ 
+}
+
+.grid { 
+    display: grid; 
+    grid-template-columns: 40% 40%; /* Two columns, each 40% wide */ 
+    justify-content: center;
+    row-gap: 10px;
+    column-gap: 10%; /* Adjust the column gap  */ 
+    align-items: start;
+    overflow: hidden; /* Ensure content doesn't overflow */
+}
+
+.grid img { 
+    width: 100%; 
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap; /* Allow the items to wrap onto multiple lines */
+    justify-content: space-evenly; 
+    gap: 10px; /* Optional: Add some space between the items */
+    row-gap: 0;
+}
+
+.flex img { 
+    width: 15%; 
+}
+
+/* Style for the main tag */
+main {
+    background-color: #eadcc3;
+    font-size: 16px;
+    padding: 20px; /* Add padding if needed */
+}
+
+/* Style for the footer tag */
+footer {
+    background-color: #dfe6e6;
+    clear: both; /* Ensures footer is cleared from floating elements */ 
+    width: 100%; position: relative; 
+    margin-top: 30px; /* Add some margin to give space between images and footer */ 
+}
+
+/* Style for the li tag */
+li {
+    display: inline-block;
+    width: 80%;
+}
+
+/* Style for the h1 tag */
+h1 {
+    text-align: center;
+    font-family: 'Georgia', serif;
+    color: white;
+    font-weight: bolder;
+}
+
+/* Style for the p tag */
+p {
+    line-height: 1.5;
+}
+
